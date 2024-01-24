@@ -2,10 +2,14 @@
   "name": "backend3",
   "version": "1.0.0",
   "description": "main backend project",
-  "main": "index.js",
+  "type":"module",
+  "maindev": "nodemon src/index.js",
   "scripts": {
     "start": "node index.js"
   },
   "author": "Purshottam",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
