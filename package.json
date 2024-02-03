@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "main backend project",
   "type": "module",
-  "maindev": "nodemon src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"    
   },
   "author": "Purshottam",
   "license": "ISC",
@@ -14,6 +14,9 @@
   },
   "dependencies": {
     "D": "^1.0.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
     "prettier": "^3.2.4"
   }
 }
